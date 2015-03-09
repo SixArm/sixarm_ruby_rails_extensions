@@ -1,4 +1,4 @@
-# SixArm.com » Rails » <br> Extensions
+# Rails » <br> Extensions
 
 [![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_rails_extensions.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_rails_extensions)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_rails_extensions.png)](https://travis-ci.org/SixArm/sixarm_ruby_rails_extensions)
