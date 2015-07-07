@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
 
-  SOURCES          = ['action_controller/controller_name_model','action_controller/controller_path_model']
+  SOURCES          = ["action_controller/controller_name_model",'action_controller/controller_path_model']
   TESTERS          = []
 
   s.name           = "sixarm_ruby_rails_extensions"
@@ -14,11 +14,11 @@ Gem::Specification.new do |s|
   s.homepage       = "http://sixarm.com/"
   s.licenses       = ["BSD", "GPL", "MIT", "PAL", "Various"]
 
-  s.signing_key    = '/opt/keys/sixarm/sixarm-rsa-4096-x509-20145314-private.pem'
-  s.cert_chain     = ['/opt/keys/sixarm/sixarm-rsa-4096-x509-20150314-public.pem']
+  s.signing_key    = "/opt/keys/sixarm/sixarm-rsa-4096-x509-20145314-private.pem"
+  s.cert_chain     = ["/opt/keys/sixarm/sixarm-rsa-4096-x509-20150314-public.pem"]
 
   s.platform       = Gem::Platform::RUBY
-  s.require_path   = 'lib'
+  s.require_path   = "lib"
   s.has_rdoc       = true
 
   top_files        = [".gemtest", "CONTRIBUTING.md", "Rakefile", "README.md", "VERSION"]
