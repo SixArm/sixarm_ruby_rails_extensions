@@ -47,8 +47,3 @@ To install with high security:
 
 
 * (class) load_dir_pairs: specify directory patterns and pass each YAML file in the matching directories to a block to process key/value pairs.
-
-## Changes
-
-  * 2015-02-18 2.0.0 Publish with ActionController::Base extensions
-  * 2005-12-30 1.0.0 Create
