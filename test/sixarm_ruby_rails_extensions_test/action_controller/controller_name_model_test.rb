@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-require 'minitest/autorun'
-require 'simplecov'
+require "minitest/autorun"
+require "simplecov"
 SimpleCov.start
-require 'sixarm_ruby_rails_extensions'
+require "sixarm_ruby_rails_extensions"
 
 # IMPORTANT: When we edit this file, also edit controller_path_model.rb
 

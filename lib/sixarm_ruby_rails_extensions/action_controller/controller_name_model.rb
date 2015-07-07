@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require 'action_controller'
+require "action_controller"
 class ActionController::Base
 
   # Get the controller name model.
