@@ -20,11 +20,7 @@ Gem::Specification.new do |s|
   s.has_rdoc       = true
 
   s.files = [
-    ".gemtest",
-    "CONTRIBUTING.md",
     "Rakefile",
-    "README.md",
-    "VERSION",
     "lib/sixarm_ruby_rails_extensions.rb",
     "lib/sixarm_ruby_rails_extensions/action_controller/controller_name_model.rb",
     "lib/sixarm_ruby_rails_extensions/action_controller/controller_path_model.rb",
