@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name           = "sixarm_ruby_rails_extensions"
-  s.summary        = "SixArm.com » Ruby » Rails extensions to classes."
+  s.summary        = "SixArm.com → Ruby → Rails extensions to classes."
   s.description    = "Adds extensions to Ruby On Rails classes"
   s.version        = "2.0.0"
 
