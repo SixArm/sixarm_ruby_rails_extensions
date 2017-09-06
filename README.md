@@ -2,16 +2,16 @@
 
 <!--HEADER-OPEN-->
 
-[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_rails_extensions.git.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_rails_extensions.git)
-[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_rails_extensions.git.png)](https://travis-ci.org/SixArm/sixarm_ruby_rails_extensions.git)
+[![Gem Version](https://badge.fury.io/rb/sixarm_ruby_rails_extensions.svg)](http://badge.fury.io/rb/sixarm_ruby_rails_extensions)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_rails_extensions.png)](https://travis-ci.org/SixArm/sixarm_ruby_rails_extensions)
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_rails_extensions.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_rails_extensions)
+[![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_rails_extensions/badge.svg?branch=master&service=github)](https://coveralls.io/github/SixArm/sixarm_ruby_rails_extensions?branch=master)
 
-* Git: <https://github.com/sixarm/sixarm_ruby_rails_extensions.git>
+* Git: <https://github.com/sixarm/sixarm_ruby_rails_extensions>
 * Doc: <http://sixarm.com/sixarm_ruby_rails_extensions/doc>
 * Gem: <https://rubygems.org/gems/sixarm_ruby_rails_extensions>
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
-* Changes: See CHANGES.md file.
-* License: See LICENSE.md file.
-* Helping: See CONTRIBUTING.md file.
+* Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
 
 <!--HEADER-SHUT-->
 
@@ -29,23 +29,21 @@ Want to help? We're happy to get pull requests.
 
 ## Install
 
-To install using a Gemfile, add this:
+### Gem
 
-    gem "sixarm_ruby_rails_extensions", ">= 2.0.0", "< 3"
+Run this command in your shell or terminal:
 
-To install using the command line, run this:
+    gem install sixarm_ruby_rails_extensions
 
-    gem install sixarm_ruby_rails_extensions -v ">= 2.0.0, < 3"
+Or add this to your Gemfile:
 
-To install using the command line with high security, run this:
+    gem 'sixarm_ruby_rails_extensions'
 
-    wget http://sixarm.com/sixarm.pem
-    gem cert --add sixarm.pem && gem sources --add http://sixarm.com
-    gem install sixarm_ruby_rails_extensions -v ">= 2.0.0, < 3" --trust-policy HighSecurity
+### Require
 
 To require the gem in your code:
 
-    require "sixarm_ruby_rails_extensions"
+    require 'sixarm_ruby_rails_extensions'
 
 <!--INSTALL-SHUT-->
 
